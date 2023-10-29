@@ -1,0 +1,68 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-image: url("photos/starry.png") ;
+    height: 100vh;
+    width: 100vw;
+}
+
+html, button {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Twinkle Star', cursive;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+button{
+    height: 200px;
+    border: none;
+    background-color: transparent;
+   font-size: 1.5rem;
+   margin-bottom: 25px;
+}
+
+img{
+    height: 25vh;
+}
+
+.hands{
+    border-radius: 50%;
+}
+
+#roc {
+    box-shadow: 0 4px 4px 4px rgba(243, 182, 198, 0.7);
+}
+
+#pap{
+    box-shadow: 0 4px 4px 4px rgba(133, 204, 234, 0.7);
+}
+#scis{
+    box-shadow: 0 4px 4px 4px rgba(219, 186, 252, 0.7);
+}
+
+p{
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+@media screen and (max-width: 390px) {
+    img{
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 391px) and (max-width: 760px) {
+    img{
+        height: 150px;
+    }
+}
